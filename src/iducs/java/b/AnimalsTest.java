@@ -5,9 +5,16 @@ public class AnimalsTest {
 		animal.breathe();
 		animal.eat();
 		animal.move();
+		animal.sound();
+		
 	}
 	
 	public static void main(String[] args) {
+		String str1="인덕대학교";
+		String str2="이퓨터소프트웨어학과";
+		
+		System.out.println(str1.compareTo(str2));
+		
 		Animals human = new Human();
 		enable(human);
 		//human.breathe();
